@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LoraHost</title>
+  
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('f2.png'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;   
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+
+  color: #fff;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Live Chat</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>   
+
+    <h1>SMART COMPANY WITH PERFECT SPACE</h1>
+    <h2>POWERFUL WEB HOSTING</h2>
+    <p>Form male saying she'd so every fifth winged after spirit male land moving won't seesons fish in shall given fifth edition</p>
+    <button>Get Started</button>
+  </header>
+
+  <section class="search-bar">
+    <input type="text" placeholder="Search Your Domain Now!">
+    <button>Search</button>
+  </section>
+
+  <footer>
+    <p>CGITI | net</p>
+  </footer>
+</body>
+</html>
