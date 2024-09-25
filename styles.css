@@ -1,0 +1,329 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background-image: url('self.png'); /* Background Image */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #fff;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.resume-btn {
+    background-color: #ff5959;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+.profile-pic {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+   
+    border: 5px solid white;
+}
+
+/* Social Icons */
+.social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5959;
+}
+
+.resume {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.resume h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.resume-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.resume-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resume-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ff5959;
+    position: relative;
+}
+
+.resume-card h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #ff5959;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.timeline-item span {
+    color: #ff5959;
+    font-weight: bold;
+}
+
+.timeline-item h4 {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.timeline-item p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Skills and Languages */
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-bar {
+    width: 100px;
+    height: 8px;
+    background-color: #ddd;
+    margin-left: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.skill-bar .filled {
+    background-color: #ff5959;
+    height: 100%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .resume-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .resume-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio-header {
+    margin-bottom: 20px;
+}
+
+.portfolio-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.portfolio-nav {
+    margin: 20px 0;
+}
+
+.portfolio-nav button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.portfolio-nav button.active,
+.portfolio-nav button:hover {
+    background-color: #ff5959;
+    color: white;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+.location-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #555;
+}
+
+.map-container {
+    width: 50%;
+}
+
+.location-info {
+    width: 50%;
+    padding: 20px;
+    color:#000;
+   
+}
+
+.location-info h2 {
+    margin-bottom: 20px;
+}
+
+.location-info p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f0f0f;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}

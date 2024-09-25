@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #4ba0ad;
+    padding: 20px;
+}
+
+/* Education Section */
+.education-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.education-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 70%;
+    box-shadow: 0 2px 15px rgba(55, 54, 54, 0.942);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.timeline-item:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-item .timeline-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #6c63ff;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.5);
+}
+
+.timeline-content {
+    padding-left: 50px;
+}
+
+.timeline-content h3 {
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.timeline-content h4 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.timeline-content .institution {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.timeline-content .details {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skill {
+    width: 45%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.skill p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.progress {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #9b59b6;
+}
+
+.skill span {
+    float: right;
+    font-size: 1rem;
+    color: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.hero-section {
+    background: url('ME.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Darken the background image */
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.hero-text h1 span {
+    color: #ff00ff; /* Highlight color */
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+/* Education Section */
+.education-section, .skills-section {
+    padding: 50px;
+    background: #222;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ nav {
+            background-color: #333;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f0f0f;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #666;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #020000;
+}
+
+
+/* Profiles Section */
+#profiles {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#profiles .section-heading {
+    margin-bottom: 40px;
+}
+
+#profiles .section-heading h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.profiles .container {
+    display: flex;
+    justify-content: center;
+}
+
+.profiles-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-profile {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+}
+
+.single-profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.single-profile .single-profile-overlay {
+    position: relative;
+    padding: 20px;
+}
+
+.profile-txt {
+    position: relative;
+    z-index: 2;
+    
+}
+
+.profile-txt a {
+    display: inline-block;
+    font-size: 50px;
+    color: #333;
+    transition: color 0.3s ease;
+   
+}
+
+.profile-txt a:hover {
+    color: #6c63ff; /* Change the color when hovering */
+}
+
+.profile-icon-name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 1px;
+   
+}
+
+/* GitHub Icon Specific Styling */
+.flaticon-github-logo {
+    font-size: 3rem;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.flaticon-github-logo:hover {
+    color: #6c63ff;
+}
+
+
+/* Portfolio Section */
+#portfolio {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+}
+
+#portfolio .section-heading {
+    margin-bottom: 50px;
+}
+
+#portfolio .section-heading h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.portfolio .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.item:hover img {
+    transform: scale(1.1); /* Image zoom on hover */
+}
+
+.isotope-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+.item:hover .isotope-overlay {
+    opacity: 1;
+}
+
+.isotope-overlay a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.isotope-overlay a:hover {
+    color: #6c63ff; /* Change the text color on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .item {
+        margin-bottom: 20px;
+    }
+
+    #portfolio .section-heading h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .item {
+        margin-bottom: 15px;
+    }
+
+    #portfolio .section-heading h2 {
+        font-size: 1.8rem;
+    }
+}
+
+
+.location-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #555;
+}
+
+.map-container {
+    width: 50%;
+}
+
+.location-info {
+    width: 50%;
+    padding: 20px;
+    color:#000;
+   
+}
+
+.location-info h2 {
+    margin-bottom: 20px;
+}
+
+.location-info p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #000000;
+}
