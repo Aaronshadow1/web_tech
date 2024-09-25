@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="social-icons">
+        
+            <a href="#https://x.com/KINGANANTHU"><i class="fab fa-twitter"></i></a>
+            <a href="#https://www.facebook.com/zenitsu1234679"><i class="fab fa-facebook-f"></i></a>
+           
+        </div>
+        <div class="container">
+            <h1>Hello, I am <span class="highlight">ANANTHU PRADEEP</span></h1>
+            <p>BCA STUDENT AT MACFAST</p>
+            <button class="resume-btn">Print</button>
+        </div>
+        <img src="king.jpg" alt="ANANTHU PRADEEP" class="profile-pic">
+    </header>
+<br>
+<br>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Resume Section -->
+    <section class="ABOUT ME">
+        <h2><span class="highlight">My</span> ABOUT ME</h2>
+        <div class="resume-grid">
+            <!-- Expertise -->
+            <div class="resume-card">
+                <h3>EDUCATION</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span>2024-PRESENT</span>
+                        <h4>BCA STUDENT</h4>
+                    </div>
+                    <div class="timeline-item">
+                        <span>2023-2024</span>
+                        <h4>PLUS TWO</h4>
+                        <p>SCORED MORE THAN 85%</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span>2012-2023</span>
+                        <h4>SSLC/HIGH SCHOOL</h4>
+                        <p>SCORED MORE THAN 92%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="resume-card">
+                <h3>HOBBIES</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span>DRAWING</span>
+                        <h4>STUDIED DRWING IN 2015-2016</h4>
+                    </div>
+                    <div class="timeline-item">
+                        <span>WATCHING MOVIES</span>
+                        <h4>WATCHING MOVIES IS ONE OF MY FAVORITE HOBBIE</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="resume-card">
+                <h3>INTREST</h3>
+                <ul class="skills-list">
+                    <li>HTML5 & CSS3 <span class="skill-bar"><span class="filled" style="width: 90%;"></span></span></li>
+                    <li>JavaScript <span class="skill-bar"><span class="filled" style="width: 80%;"></span></span></li>
+                    <li>PHP <span class="skill-bar"><span class="filled" style="width: 70%;"></span></span></li>
+                    <li>SQL <span class="skill-bar"><span class="filled" style="width: 60%;"></span></span></li>
+                </ul>
+            </div>
+
+            <!-- Languages -->
+            <div class="resume-card">
+                <h3>Languages</h3>
+                <ul class="skills-list">
+                    <li>English <span class="skill-bar"><span class="filled" style="width: 100%;"></span></span></li>
+                    <li>MALAYALAM <span class="skill-bar"><span class="filled" style="width: 70%;"></span></span></li>
+                    <li>TAMIL <span class="skill-bar"><span class="filled" style="width: 50%;"></span></span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="portfolio-header">
+            <h2><span class="highlight">My</span> Portfolio</h2>
+        </div>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item"><img src="1.jpg" alt="Portfolio 1"></div>
+            <div class="portfolio-item"><img src="2.jpg" alt="Portfolio 2"></div>
+            <div class="portfolio-item"><img src="3.jpg" alt="Portfolio 3"></div>
+            <div class="portfolio-item"><img src="4.jpg" alt="Portfolio 4"></div>
+            <div class="portfolio-item"><img src="5.jpg" alt="Portfolio 5"></div>
+            <div class="portfolio-item"><img src="6.jpg" alt="Portfolio 6"></div>
+        </div>
+    </section>
+
+
+
+    <section class="location-section">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31508.242109665225!2d78.48762015136533!3d17.37726924273563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb4698501036a1%3A0x7359e5961582304d!2sPark%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2sin!4v1695581466423!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="location-info">
+            <h2>Get in Touch</h2>
+            <p><i class="fas fa-map-marker-alt"></i> THIRUVALLA CHATHENKERY</p>
+            <p><i class="fas fa-phone"></i> Call 8281703769</p>
+            <p><i class="fas fa-envelope"></i> ananthupradeep0806@gmail.com</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>   
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>   
+
+    </section>
+
+<section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <div class="contact-details">
+        <p>BCA STUDENT</p>
+        <p><strong>Phone:</strong>8281703769</p>
+        <p><strong>Email:</strong> ananthupradeep0806@gmail.com</p>
+    </div>
+    <div class="copyright">
+        <p>&copy; Copyright ANANTHU PRADEEP. Design and Developed by ANANTHU PRADEEP</p>
+    </div>
+    <div class="social-icons">
+        <a href="#https://www.facebook.com/zenitsu1234679"><i class="fab fa-facebook-f"></i></a>
+        <a href="#https://www.facebook.com/zenitsu1234679"><i class="fab fa-instagram"></i></a>
+        <a href="#https://x.com/KINGANANTHU"><i class="fab fa-twitter-in"></i></a>
+    </div>   
+
+</section>
+    
+</body>
+</html>
