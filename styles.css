@@ -35,7 +35,7 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgb(12, 12, 12);
 }
 
 .container {
@@ -48,7 +48,7 @@ h1 {
 }
 
 .highlight {
-    color: #fff;
+    color: #cb1be2;
     font-weight: bold;
 }
 
@@ -59,7 +59,7 @@ p {
 
 .resume-btn {
     background-color: #ff5959;
-    color: white;
+    color: rgb(7, 0, 8);
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 30px;
@@ -70,10 +70,10 @@ p {
     bottom: -50px;
     left: 50%;
     transform: translateX(-50%);
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 190px;
    
-    border: 5px solid white;
+    border: 5px solid rgb(201, 30, 30);
 }
 
 /* Social Icons */
@@ -84,14 +84,14 @@ p {
 }
 
 .social-icons a {
-    color: white;
+    color: rgb(190, 7, 214);
     margin: 0 10px;
     font-size: 1.2rem;
 }
 
 /* Navigation */
 nav {
-    background-color: white;
+    background-color: rgb(154, 11, 211);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
     position: sticky;
@@ -115,7 +115,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff5959;
+    color: #0a0a0a;
 }
 
 .resume {
@@ -137,8 +137,8 @@ nav ul li a:hover {
 }
 
 .resume-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #570379d8;
+    border: 1px solid #080008bd;
     padding: 20px;
     border-radius: 10px;
 }
@@ -146,7 +146,7 @@ nav ul li a:hover {
 .resume-card h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #ff5959;
+    color: #040005;
     position: relative;
 }
 
@@ -179,7 +179,7 @@ nav ul li a:hover {
 
 .timeline-item p {
     font-size: 0.9rem;
-    color: #666;
+    color: #0c0000;
 }
 
 /* Skills and Languages */
@@ -199,14 +199,14 @@ nav ul li a:hover {
 .skill-bar {
     width: 100px;
     height: 8px;
-    background-color: #ddd;
+    background-color: #0f0101;
     margin-left: 10px;
     border-radius: 5px;
     position: relative;
 }
 
 .skill-bar .filled {
-    background-color: #ff5959;
+    background-color: #b408ca;
     height: 100%;
     border-radius: 5px;
 }
@@ -244,8 +244,8 @@ nav ul li a:hover {
 }
 
 .portfolio-nav button {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #0f0000;
+    border: 1px solid #ece6e6;
     padding: 10px 15px;
     margin: 0 5px;
     font-size: 1rem;
@@ -254,8 +254,8 @@ nav ul li a:hover {
 
 .portfolio-nav button.active,
 .portfolio-nav button:hover {
-    background-color: #ff5959;
-    color: white;
+    background-color: #140101;
+    color: rgb(15, 1, 1);
 }
 
 .portfolio-gallery {
@@ -286,7 +286,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #555;
+    background-color: #400250;
 }
 
 .map-container {
@@ -321,9 +321,97 @@ nav ul li a:hover {
 .contact-section {
     text-align: center;
     padding: 20px;
-    background-color: #1f0f0f;
+    background-color: #121213;
 }
 
 .contact-details {
     margin-bottom: 20px;
+}
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(109, 4, 122);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.about-content {
+    width: 60%;
+}
+
+.about-image {
+    width: 35%;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: 1px solid #8a058a;
+    padding-top: 10px;
+}
+
+.contact-info .info {
+    text-align: left;
+}
+
+.contact-info span {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    display: inline-block;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: rgb(174, 10, 250);
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #000000;
 }
