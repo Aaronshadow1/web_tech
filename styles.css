@@ -57,13 +57,7 @@ p {
     margin-bottom: 20px;
 }
 
-.resume-btn {
-    background-color: #110101;
-    color: rgb(27, 1, 31);
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 30px;
-}
+
 
 .profile-pic {
     position: absolute;
@@ -331,21 +325,10 @@ nav ul li a:hover {
 .about-section {
     width: 100%;
     padding: 50px 0;
+    animation-delay: 0.5s;
 }
 
-@keyframes slideIn {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.sliding-element {
-    animation: slideIn 0.5s ease-out forwards;
+.container{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -372,6 +355,11 @@ nav ul li a:hover {
     margin-bottom: 15px;
 }
 
+.about-image.anim{
+    animation-delay: 1.5s;
+
+}
+
 .about-content h2 {
     font-size: 24px;
     color: #333;
@@ -381,6 +369,7 @@ nav ul li a:hover {
 }
 
 .about-content p {
+    animation-delay: 1s;
     margin-bottom: 20px;
     color: #555;
     line-height: 1.6;
@@ -538,4 +527,16 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.anim{
+    opacity:0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
