@@ -27,7 +27,7 @@ button {
 /* Hero Section */
 .hero {
     position: relative;
-    background-image: url('self.png'); /* Background Image */
+    background-image: url('cloud.jpg'); /* Background Image */
     background-size: cover;
     background-position: center;
     height: 50vh;
