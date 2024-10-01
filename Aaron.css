@@ -303,16 +303,6 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-.social-icons {
-    margin-top: 20px;
-}
-
-.social-icons a {
-    margin-right: 10px;
-    color: #000000;
-}
-
-
 .contact-section {
     text-align: center;
     padding: 20px;
@@ -540,3 +530,4 @@ body{
         transform: translateY(0px);
     }
 }
+
